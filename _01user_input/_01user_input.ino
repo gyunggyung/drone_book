@@ -8,6 +8,6 @@ void loop() {
   if(Serial1.available() > 0) {
     userInput = Serial1.read();
     
-    Serial.println(char)userInput);
+    Serial.println((char)userInput);
   }
 }
